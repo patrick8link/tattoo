@@ -1,0 +1,88 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.read-the-docs {
+  color: #888;
+}
+
+.btn {
+  margin-top: 105px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  padding: 12px 24px;
+  border: 3px solid;
+  border-color: white;
+  cursor: pointer;
+}
+
+.drawerButton {
+  font-size: 24px;
+  color: black;
+  background-color: transparent;
+  width:250px;
+  text-align: left;
+}
+.drawerButton:hover {
+  border-color: #000;
+  color: #fff;
+  background-color: #000;
+  transition: all .5s ease;
+}
+
+.bg-gray {
+  background-color: rgba(242, 242, 242, 1);
+}
+.redDate {
+  color: rgba(255, 0, 0, 1);
+}
+.grey {
+  background-color: rgba(255, 0, 0, 1);
+  text-decoration:line-through;
+}
+.Full {
+  background-color: rgba(255, 0, 0, 1);
+  text-decoration:line-through;
+}
+.Selected {
+  background-color: rgba(146, 195, 252, 0.356);
+}
+.calendar-todo-list {
+  list-style-type: none;
+}
